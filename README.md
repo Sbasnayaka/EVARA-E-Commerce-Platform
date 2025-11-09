@@ -180,17 +180,13 @@ EVARA_SA23800946/
 ### Default Test Accounts
 
 **Admin Account:**
-- Username: `Basnayaka`
+- Username: (check database or create new)
 - Password: (check database or create new)
 
 **Customer Account:**
-- Username: `Sanuu`
+- Username: (check database or create new)
 - Password: (check database or create new)
 
-> **Note**: 
-You can create new accounts through the registration page.
-
-For detailed setup instructions, see [HOW_TO_RUN.md](HOW_TO_RUN.md)
 
 ---
 
@@ -244,20 +240,13 @@ For detailed setup instructions, see [HOW_TO_RUN.md](HOW_TO_RUN.md)
 
 ## 📸 Screenshots
 
-> - **Homepage**
-> - **Product page**
-> - **Shopping cart**
-> - **User dashboard**
-> - **Admin dashboard**
-
-**Example:**
 ```
 ![Homepage](screenshots/homepage.png)
 ![Products](screenshots/products.png)
 ![Cart](screenshots/cart.png)
 [Customer](screenshots/customer.png)
 ![Admin](screenshots/admin.png)
-```
+
 
 ---
 
@@ -313,17 +302,6 @@ This project is created for educational purposes as part of academic coursework.
 
 ---
 
-## 📞 Contact
-
-For questions or feedback about this project, please feel free to reach out!
-
----
-
-<div align="center">
-
-**⭐ If you find this project interesting, please give it a star! ⭐**
-
-Made with ❤️ in 2024
 
 </div>
 
