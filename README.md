@@ -4,7 +4,7 @@
 
 ![EVARA Logo](pics/icon.png)
 
-**A full-stack e-commerce web application for personalized jewelry shopping with customization features**
+**EVARA** is a small full-stack e-commerce web app I built for a course assignment (1st Year, 2nd Semester). It lets customers browse and customize jewelry, place orders, and lets an admin manage products and orders. I built this to practise connecting a PHP backend to a MySQL database and to explore simple customization tools for product design.
 
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
@@ -21,10 +21,10 @@
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [Features](#-features)
-- [Technology Stack](#-technology-stack)
+- [What I built](#-features)
+- [Tech stack](#-technology-stack)
 - [Project Structure](#-project-structure)
-- [Installation & Setup](#-installation--setup)
+- [How to run (quick)](#-installation--setup)
 - [Database Schema](#-database-schema)
 - [Key Functionalities](#-key-functionalities)
 - [Screenshots](#-screenshots)
@@ -36,43 +36,43 @@
 
 ## 🎯 Overview
 
-**EVARA** is a comprehensive e-commerce platform designed for personalized jewelry shopping. This project was developed as my first fully functional full-stack web application, combining frontend design with backend database integration. The platform allows users to browse jewelry collections, customize pieces, manage shopping carts, and place orders, while administrators can manage products, orders, users, and FAQs.
+EVARA is an educational project that demonstrates a working e-commerce flow: product browsing, simple customization (e.g., engraving or selecting materials), cart management, and order handling. There's a lightweight admin dashboard for CRUD operations and FAQ management.
 
 ### Project Highlights
 
-- ✅ **Full-Stack Development**: Complete integration of frontend and backend
-- ✅ **User Authentication**: Secure login/signup system with role-based access
-- ✅ **E-Commerce Functionality**: Shopping cart, order management, and checkout
-- ✅ **Admin Dashboard**: Comprehensive admin panel for website management
-- ✅ **Database-Driven**: MySQL database with proper relationships and constraints
-- ✅ **Responsive Design**: Mobile-friendly interface with modern UI/UX
-- ✅ **Security**: Prepared statements to prevent SQL injection attacks
+-  **Full-Stack Development**: Complete integration of frontend and backend
+-  **User Authentication**: Secure login/signup system with role-based access
+-  **E-Commerce Functionality**: Shopping cart, order management, and checkout
+-  **Admin Dashboard**: Comprehensive admin panel for website management
+-  **Database-Driven**: MySQL database with proper relationships and constraints
+-  **Responsive Design**: Mobile-friendly interface with modern UI/UX
+-  **Security**: Prepared statements to prevent SQL injection attacks
 
 ---
 
-## ✨ Features
+## 📊 Features
 
 ### Customer Features
-- 🛍️ **Product Browsing**: Browse jewelry by categories (Gold, Silver, Pearl)
-- 🎨 **Customization Tools**: Design personalized jewelry pieces
-- 🛒 **Shopping Cart**: Add, update, and remove items from cart
-- 💳 **Order Management**: Place orders with multiple payment options
-- 👤 **User Dashboard**: View profile and order history
-- 📞 **Support System**: Contact form and FAQ section
+-  **Product Browsing**: Browse jewelry by categories (Gold, Silver, Pearl)
+-  **Customization Tools**: Design personalized jewelry pieces
+-  **Shopping Cart**: Add, update, and remove items from cart
+-  **Order Management**: Place orders with multiple payment options
+-  **User Dashboard**: View profile and order history
+-  **Support System**: Contact form and FAQ section
 
 ### Admin Features
-- 📦 **Product Management**: Add, edit, and delete products
-- 📊 **Order Management**: View and update order statuses
-- 👥 **User Management**: Manage customer accounts
-- ❓ **FAQ Management**: Create and edit frequently asked questions
-- 📈 **Dashboard Overview**: Centralized admin control panel
+-  **Product Management**: Add, edit, and delete products
+-  **Order Management**: View and update order statuses
+-  **User Management**: Manage customer accounts
+-  **FAQ Management**: Create and edit frequently asked questions
+-  **Dashboard Overview**: Centralized admin control panel
 
 ### Technical Features
-- 🔐 **Secure Authentication**: Password hashing with PHP password_hash()
-- 🛡️ **SQL Injection Prevention**: Prepared statements throughout
-- 📱 **Responsive Design**: Works on desktop, tablet, and mobile devices
-- 🎯 **Session Management**: Secure session handling for user data
-- 🔄 **AJAX Integration**: Dynamic cart updates without page reload
+-  **Secure Authentication**: Password hashing with PHP password_hash()
+-  **SQL Injection Prevention**: Prepared statements throughout
+-  **Responsive Design**: Works on desktop, tablet, and mobile devices
+-  **Session Management**: Secure session handling for user data
+-  **AJAX Integration**: Dynamic cart updates without page reload
 
 ---
 
@@ -153,7 +153,7 @@ EVARA_SA23800946/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/EVARA_SA23800946.git
+   git clone https://github.com/Sbasnayaka/EVARA_SA23800946.git
    cd EVARA_SA23800946
    ```
 
@@ -187,7 +187,8 @@ EVARA_SA23800946/
 - Username: `Sanuu`
 - Password: (check database or create new)
 
-> **Note**: You can create new accounts through the registration page.
+> **Note**: 
+You can create new accounts through the registration page.
 
 For detailed setup instructions, see [HOW_TO_RUN.md](HOW_TO_RUN.md)
 
@@ -243,18 +244,19 @@ For detailed setup instructions, see [HOW_TO_RUN.md](HOW_TO_RUN.md)
 
 ## 📸 Screenshots
 
-> **Note**: Add screenshots of your application here. You can take screenshots of:
-> - Homepage
-> - Product page
-> - Shopping cart
-> - User dashboard
-> - Admin dashboard
+> - **Homepage**
+> - **Product page**
+> - **Shopping cart**
+> - **User dashboard**
+> - **Admin dashboard**
 
 **Example:**
 ```
 ![Homepage](screenshots/homepage.png)
 ![Products](screenshots/products.png)
 ![Cart](screenshots/cart.png)
+[Customer](screenshots/customer.png)
+![Admin](screenshots/admin.png)
 ```
 
 ---
@@ -276,7 +278,7 @@ For detailed setup instructions, see [HOW_TO_RUN.md](HOW_TO_RUN.md)
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Sanduni Basnayaka**
 
 - **Project**: EVARA E-Commerce Platform
 - **Year**: 2024
