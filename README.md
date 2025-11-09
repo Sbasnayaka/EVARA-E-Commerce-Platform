@@ -238,11 +238,11 @@ EVARA_SA23800946/
 
 ## 📸 Screenshots
 
-```
+
 ![Homepage](screenshots/homepage.png)
 ![Products](screenshots/products.png)
 ![Cart](screenshots/cart.png)
-[Customer](screenshots/customer.png)
+![Customer](screenshots/customer.png)
 ![Admin](screenshots/admin.png)
 
 
