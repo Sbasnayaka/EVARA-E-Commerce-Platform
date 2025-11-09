@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![EVARA Logo](pics/icon.png)
-
 **EVARA** is a small full-stack e-commerce web app I built for a course assignment (1st Year, 2nd Semester). It lets customers browse and customize jewelry, place orders, and lets an admin manage products and orders. I built this to practise connecting a PHP backend to a MySQL database and to explore simple customization tools for product design.
 
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
