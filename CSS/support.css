@@ -1,0 +1,95 @@
+.support 
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.support p
+{
+    color: #918989;
+    text-align: center;
+}
+h1 
+{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.contact-us {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-us img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.supportBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #808080;
+}
+
+.contact-form, 
+.faq {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #03271b;
+    border-radius: 5px;
+    background-color: #03271b;
+}
+
+.contact-form h2, .faq h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    background-color: #03271b;
+    color: #808080;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #153c30;
+    border-radius: 5px;
+    background-color: #153c30;
+    color:#808080;
+}
+
+.contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #153c30;
+    border: none;
+    color: #808080;
+    cursor: pointer;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #918989;
+}
+
+.faq-item p {
+    margin: 0;
+    color: #555;
+}

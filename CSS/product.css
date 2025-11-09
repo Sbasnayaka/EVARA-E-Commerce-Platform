@@ -1,0 +1,140 @@
+h2 
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center; 
+    margin-top: 5rem;
+}
+
+.Evara_Products , .EvaraProducts
+{
+    padding: 1.5rem; /* Padding around the entire section */
+}
+
+.EvaraProducts{
+    padding-top: 30px;
+}
+.product-grid 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 2rem; /* Gap between items */
+}
+
+.product-item 
+{
+    border: 1px solid #03271b;
+    padding: 0.75rem;
+    text-align: center;
+    color: #808080;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: #03271b;
+}
+
+.product-item img 
+{
+    max-width: 100%;
+    height: auto;
+    max-height: 320px; /* Limit height for uniformity */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.product-item h3 
+{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #fff; 
+}
+
+.product-item p 
+{
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0;
+    color: #ccc; 
+}
+
+.product-item .price 
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.75rem 0;
+    color: #808080;
+}
+
+.product-item .add-to-cart 
+{
+    background-color: #034a34;
+    color: #011d14;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-item .add-to-cart:hover 
+{
+    background-color: #149056;
+}
+
+.product-item:hover 
+{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Customis=ze section*/
+
+.customization-section 
+{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ccc; /* Lighter text color */
+}
+
+.customization-section h2 
+{
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.customization-section p 
+{
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.customize-button
+{
+    background-color: #034a34;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.customize-button:hover
+{
+    background-color: #149056;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) 
+{
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns per row on smaller screens */
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .product-grid {
+        grid-template-columns: 1fr; /* 1 column per row on mobile screens */
+    }
+}

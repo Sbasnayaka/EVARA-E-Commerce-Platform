@@ -1,0 +1,189 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    font-family: "Titillium Web", sans-serif;
+    background-color: #011d14;
+    color: #808080;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#homehdr 
+{
+    position: relative;
+    background-image: url("../pics/logo1.png");
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgba(29, 28, 28, 0.9);
+    overflow: hidden;
+}
+
+
+/* Get Started Button */
+.button-link 
+{
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+button 
+{
+    padding: 10px 80px;
+    font-size: 20px;
+    background-color: #011d14;
+    color: #808080;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover
+{
+    color: white;
+}
+
+/* About Us Section */
+.aboutUs 
+{
+    padding: 60px 20px;
+    background-color: #03271b; 
+    text-align: center; 
+    color: #808080; 
+}
+
+.aboutUs h1 
+{
+    font-size: 2.5em;
+    margin-bottom: 20px; 
+}
+
+.aboutUs p 
+{
+    font-size: 1.2em;
+    line-height: 1.6; 
+    max-width: 800px; 
+    margin: 0 auto 30px; 
+}
+
+/* Product Section */
+.featured-products 
+{
+    padding: 2rem;
+    text-align: center;
+    color: #808080;
+    font-size: large;
+}
+
+.product-info h2
+{
+    font-size: 40px;
+    color:#808080;
+}
+.product-info p
+{
+    font-size: larger;
+    color:#808080;
+}
+.featured-products h2 
+{
+    margin-bottom: 1rem;
+
+}
+
+.product-grid 
+{
+    display: grid;
+  	grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.product-item 
+{
+    border: 1px solid #03271b;
+    padding: 1rem;
+    text-align: center;
+    color: #808080;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.product-item:hover 
+{
+    transform: translateY(-10px); 
+}
+
+.related-products
+{
+    color:#808080;
+    font-size: larger;
+}
+.product-item p
+{
+    color:#808080;
+}
+
+.product-item img 
+{
+    max-width: 70%;
+    height: auto;
+    color: #808080;
+}
+
+/* Customization Section */
+
+.homeCustomize 
+{
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.homeCustomize h1 
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.homeCustomize p 
+{
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+#btn-customization 
+{
+    display: inline-block;
+    background-color: #03271b;
+    color: #d3cece;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#btn-customization a 
+{
+    color: #d3cece;
+    text-decoration: none;
+}
+
+#btn-customization:hover 
+{
+    background-color: #011d14;
+}

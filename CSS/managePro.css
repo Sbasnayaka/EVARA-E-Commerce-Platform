@@ -1,0 +1,55 @@
+form {
+    max-width: 600px;
+    margin: 20px auto; /* Centers the form with space from the top */
+    padding: 20px;
+    background-color: #03271b;/* Dark green background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #e0e0e0; /* Light color for labels */
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #41945a;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: #03271b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #549862; /* Darker shade on hover */
+}
+
+form h2 {
+    text-align: center;
+    color: #e0e0e0; /* Light color for the heading */
+    margin-bottom: 20px;
+    font-size: 24px;
+}

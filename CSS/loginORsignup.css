@@ -1,0 +1,38 @@
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.log-in-btn, .sign-up-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.log-in-btn img, .sign-up-btn img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.log-in-btn button, .sign-up-btn button {
+    background-color: #03271b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.log-in-btn button:hover, .sign-up-btn button:hover {
+    background-color: #07573c;
+}

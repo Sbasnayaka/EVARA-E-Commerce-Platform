@@ -1,0 +1,81 @@
+.customization, .ai-tool 
+{
+    padding: 2rem;
+    text-align: center;
+    color: #808080;
+}
+
+.customization h2, .ai-tool h2 
+{
+    margin-bottom: 2rem;
+}
+
+.customization-steps, .ai-tool 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.step 
+{
+    background-color: #011d14;
+    padding: 1rem;
+    border: 1px solid #011d14;
+    border-radius: 8px;
+}
+
+.step h3 
+{
+    margin-bottom: 1rem;
+}
+
+.step select,
+.step input 
+{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #03271b;
+    color: #808080;
+}
+
+.preview-3d 
+{
+    height: 200px;
+    background-color: #03271b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #03271b;
+    border-radius: 5px;
+}
+
+.actions button, .ai-tool button 
+{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #153c30;
+    border: none;
+    color: #808080;
+    cursor: pointer;
+}
+
+.ai-tool textarea 
+{
+    width: 100%;
+    height: 100px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #153c30;
+    border-radius: 5px;
+    background-color: #153c30;
+    color: #808080;
+}
+
+.recommendation-results 
+{
+    text-align: left;
+    margin-top: 1rem;
+}
